@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/index.css">
+</head>
+<body>
+    <form action="" class="frm">
+        <label for="firstname" class="firstname">Name<sup>*</sup></label>
+        <label for="surname" class="surname">Nachname<sup>*</sup></label>
+            <input type="text" id="firstname" name="firstname" placeholder="" required>
+            <input type="text" id="surname" name="surname" placeholder="" required>
+        <label for="email" class="email">Email<sup>*</sup></label>
+            <input type="text" id="email" name="email" placeholder="beispiel@domain.com" required>
+        <label for="theme" class="theme">Thema</label>
+            <select name="theme" id="theme">
+                <option value="general">Algemein</option>
+                <option value="advertise">Anzeige</option>
+                <option value="partnership">Gesellschaft</option>
+            </select>
+        <label for="message" class="message">Nachricht<sup>*</sup></label>
+            <textarea name="message" id="message" required></textarea>
+        <input type="submit" id="submit" value="Einreichen">
+    </form>
+</body>
+</html>
